@@ -5,7 +5,10 @@
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
+        <max_drift/>
         <name>Generate Random NeedIt Records</name>
+        <offset/>
+        <offset_type/>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
@@ -15,7 +18,7 @@
         <run_time>1970-01-01 08:00:00</run_time>
         <run_type>on_demand</run_type>
         <script><![CDATA[//Number of NeedIt records to create
-	var recordsToMake = 0;
+	var recordsToMake = 1200;
 	
 	// Declare and initialize variables used in the script
 	var genNIRec;
@@ -78,15 +81,54 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-11 22:43:07</sys_created_on>
         <sys_id>37d3909adb2e3300651e5011ce96198b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Generate Random NeedIt Records</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysauto_script_37d3909adb2e3300651e5011ce96198b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-11 22:43:07</sys_updated_on>
+        <sys_updated_on>2024-07-12 01:30:46</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#66cc</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/gif</content_type>
+        <file_name>debug_js.gif</file_name>
+        <hash>f0185202c8fab8081ccd7a39ae1ccd4787c2f1d81dcade6ed29ef3816ee30415</hash>
+        <image_height>16</image_height>
+        <image_width>16</image_width>
+        <size_bytes>595</size_bytes>
+        <size_compressed>534</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-12 01:29:44</sys_created_on>
+        <sys_id>01fbadd693530210c7a230dcebba10b3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-12 01:29:44</sys_updated_on>
+        <table_name>sysauto_script</table_name>
+        <table_sys_id>37d3909adb2e3300651e5011ce96198b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="debug_js.gif" sys_id="01fbadd693530210c7a230dcebba10b3">01fbadd693530210c7a230dcebba10b3</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-12 01:29:44</sys_created_on>
+        <sys_id>41fbadd693530210c7a230dcebba10b3</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>c/d0s7BMFGAQYHgWw/D263/+JV4MM+zjrjaqLYt2vJBfcmza169f7376/+zH8zM/rrz8+4Zhodmx76e3fN7PcFruwafnDMdNGDe5R11qZVjqPPfr2ri9rVee/U++0qV4z55hn9a9b08ffX7Z/3la/pXJO7/vjbhY3/V+avah/sKr04JfJXq/j5lxdWPViVkMS5ze//jcv+X/2Vc3GU7Lfvn69czrGyxPpUNfZ+/6ejj0fUbqld4ZH5e//PZOeUnE/T8PN3/bfuzLBbsXgWfeXv/49/O1r3flF4e2nFnEsNFt45e9LI9k8g5PZJhly+Bw0ulKZtv7GT2f5rV9mnznz/2Qx5m+lyoYljolXW27++PRpR/XlYI2Hf1+jnexp9nZxAe/HzNMs1t57j+X6/HDd/7zLfYyLv8PBAz0Aoo/WRgZGGIYdEAcUJwwsG9oiGlqbmltFQvrdG5r0RRhZlYI64mKimHzZZrloBQztTVKQ9GPU0JWKLhHPcSCU1la3k0gJjoiotnMm9dfzjYgVDuanSM8el6YShCXsSWX+SGOyKPTwqwcDYX5bCKiIy8dm8Yi6SnqY8IdyHA3+lWTvaCqB6u7V8SraPHIY/NcnIxYDeJ2HFh0KNrQkZHHoGJB41E+vjv7CjkFHCZwMoXVXLlRxOq9UayHTXSn+KQL0ya3MDEyWAMA87thsVMCAAA=</data>
+        <length>700</length>
+        <position>1</position>
+        <sys_attachment display_value="debug_js.gif" sys_id="01fbadd693530210c7a230dcebba10b3">01fbadd693530210c7a230dcebba10b3</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-12 01:29:44</sys_created_on>
+        <sys_id>c1fbadd693530210c7a230dcebba10b3</sys_id>
+    </sys_attachment_doc>
 </record_update>
